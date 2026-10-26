@@ -1,0 +1,20 @@
+{
+  "name": "doji-trade-demo",
+  "version": "1.1.0",
+  "description": "Educational demo trading platform with isolated user candles and simulated TRC20 request workflow",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "pg": "^8.13.1"
+  }
+}
